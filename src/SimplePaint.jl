@@ -1,5 +1,7 @@
 module SimplePaint
 
-# Write your package code here.
+import MiniFB as MFB
+import REPL
+import SimpleDraw as SD
 
 end
