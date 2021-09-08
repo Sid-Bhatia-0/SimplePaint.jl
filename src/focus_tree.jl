@@ -106,6 +106,8 @@ function AT.printnode(io::IO, x::FocusTree)
     return nothing
 end
 
+Base.show(io::IO, mime::MIME"text/plain", x::FocusTree) = AT.print_tree(io, x)
+
 #####
 ##### tree navigation & update
 #####
