@@ -33,6 +33,8 @@ drawable = ExampleDrawable(background, cross, line)
 
 path = Int[]
 
-drawing_context = SP.DrawingContext(image, drawable, path)
+mode = SP.NAVIGATE
+
+drawing_context = SP.DrawingContext(image, drawable, path, mode)
 
 SP.start_session!(drawing_context)
